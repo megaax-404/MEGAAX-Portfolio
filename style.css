@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.navbar {
+  width: 100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: #e5382f;
+  transition: 0.3s ease;
+}
+.navbar .logo:hover {
+  transform: scale(1.2);
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+  transition: 0.3s ease;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: #e5382f;
+}
+/*home section*/
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 0px 300px;
+  justify-content: center;
+  align-items: center;
+}
+.home-left .content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.home-left .content h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+.home-left .content h1 span,
+.home-left .content h2 span {
+  color: #e5382f;
+}
+.home-left .content p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.home-left .social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+}
+.home-left .social-icons a {
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  border: #e5382f 2px solid;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  transition: 0.3s ease;
+}
+.home-left .social-icons a:hover {
+  transform: scale(1.2);
+  background: #e5382f;
+  box-shadow: #e5382f 0px 0px 12px;
+}
+.home-left .btns .main-btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 16px;
+  padding: 8px;
+  background: transparent;
+  border: #e5382f 2px solid;
+  border-radius: 20px;
+  color: white;
+  transition: 0.3s ease;
+}
+.home-left .btns .main-btn:hover {
+  background: #e5382f;
+  box-shadow: #e5382f 0px 0px 12px;
+}
+.home-right .imgs .main-img {
+  width: 460px;
+  border-radius: 50%;
+  border: white 7px solid;
+}
